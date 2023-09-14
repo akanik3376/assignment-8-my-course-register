@@ -7,7 +7,13 @@ const Courses = () => {
 
     const [Courses, setCourses] = useState([])
     const [name, setName] = useState([])
+    // credit set
+    const [credit, setCredit] = useState(0)
 
+    // remainingTime set
+    const [remainingTime, setRemainingTime] = useState(0)
+
+    const totalHour = 20;
 
     useEffect(() => {
         fetch('./data.json')
@@ -16,12 +22,35 @@ const Courses = () => {
     }, [])
 
     const HandelSelectbtn = (course) => {
-        const newName = [...name, course]
-        setName(newName)
+
+        const isExist = name.find(item => item.id == course.id)
+        let time = course.credit
+
+        if (isExist) {
+            return alert('Added')
+        } else {
+            name.forEach(element => {
+                time = time + element.credit
+
+            });
+
+            const newName = [...name, course]
+            setName(newName)
+
+
+        }
+        let remaining = totalHour - time;
+
+        // console.log(sum)
+        if (remaining < 0) {
+            return alert('You don`t have available money')
+        } else {
+            setCredit(time)
+            setRemainingTime(remaining)
+        }
 
 
     }
-    console.log(name)
 
     return (
         <div className="mt-5 flex">
@@ -34,7 +63,7 @@ const Courses = () => {
                                 <img src={course.image} alt="" className="rounded" />
                             </figure>
                             <div className="card-body h-48 items-center text-center">
-                                <h2 className="card-title  font-semibold text-start ">{course.titel}</h2>
+                                <h2 className="card-title w-48 font-semibold text-start ">{course.titel}</h2>
                                 <p className='text-start  '><small>{course.cours_details}.</small></p>
                                 <div className=" flex justify-evenly">
                                     <p>$ Price :{course.price}</p>
@@ -52,8 +81,9 @@ const Courses = () => {
                 }
             </div>
 
-            <div className="border w-1/3 h-96 mt-5">
-                <Cart name={name}></Cart>
+            <div className=" shadow-md w-1/3 mt-5">
+                <Cart name={name} credit={credit}
+                    remainingTime={remainingTime}></Cart>
             </div>
         </div>
     );
