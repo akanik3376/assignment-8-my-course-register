@@ -1,8 +1,12 @@
-# React + Vite
+## Project Features
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+1. Modern User Interface & Mobile Friendly
+2. Types of Projects is Computer Language learning website
+3. Detailed Product Description
 
-Currently, two official plugins are available:
+## How i am managed the state in my assignment project.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+1. Assess information sources.
+2. Collect all  resources  before start assignment.
+3. Write outline before start assignment.
+4. Then create this assignment projects.

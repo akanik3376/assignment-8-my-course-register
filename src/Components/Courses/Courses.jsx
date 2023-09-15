@@ -58,15 +58,15 @@ const Courses = () => {
 
                 {
                     Courses.map((course) => <div key={course.id}>
-                        <div className="card   bg-base-100 shadow-xl px-4 py-4">
+                        <div className="card space-y-4  bg-base-100 shadow-xl px-2 py-4">
                             <figure className="">
-                                <img src={course.image} alt="" className="rounded" />
+                                <img src={course.image} alt="" className="rounded w-full" />
                             </figure>
-                            <div className="card-body h-48 items-center text-center">
+                            <div className="card-body  items-center text-center">
                                 <h2 className="card-title w-48 font-semibold text-start ">{course.titel}</h2>
                                 <p className='text-start  '><small>{course.cours_details}.</small></p>
-                                <div className=" flex justify-evenly">
-                                    <p>$ Price :{course.price}</p>
+                                <div className="my-2 flex justify-evenly">
+                                    <p>Price :{course.price}</p>
                                     <p>Credit : {course.credit} hr</p>
                                 </div>
                                 <div className="card-actions bg-blue-700 rounded-lg py-2 text-white   ">
