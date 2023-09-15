@@ -1,6 +1,6 @@
 /* eslint-disable react/prop-types */
 
-const Cart = ({ name, credit, remainingTime }) => {
+const Cart = ({ name, credit, remainingTime, addTotal }) => {
     // console.log({ credit })
     return (
         <div className="text-left">
@@ -19,8 +19,11 @@ const Cart = ({ name, credit, remainingTime }) => {
                 }
 
             </div >
-            <div className="text-left ml-7 mt-3">
-                <h2>Total Credit Hour: {credit}</h2>
+            <div className="text-left mx-4 pb-2 border-b-2 mt-3">
+                <h2 className="pl-4">Total Credit Hour: {credit}</h2>
+            </div>
+            <div className="">
+                <h2 className="mx-7 mt-3 text-2xl">Total Price: ${addTotal}</h2>
             </div>
         </div>
     );
