@@ -15,7 +15,7 @@ const Courses = () => {
     const [credit, setCredit] = useState(0)
 
     // remainingTime set
-    const [remainingTime, setRemainingTime] = useState(0)
+    const [remainingTime, setRemainingTime] = useState(20)
     const [addTotal, setAddTotal] = useState(0)
 
     const totalHour = 20;

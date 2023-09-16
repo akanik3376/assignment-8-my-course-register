@@ -2,7 +2,7 @@
     {
         "id": 1,
         "titel": "Introduction to C Programming",
-        "cours_details": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+        "cours_details": "C programming is a powerful and widely-used programming language known for its efficiency and versatility.",
         "image": "https://i.ibb.co/5FvRDkB/Rectangle-2-2.png",
         "price": 15000,
         "credit": 1
@@ -10,7 +10,7 @@
     {
         "id": 2,
         "titel": "Introduction to Algorithms",
-        "cours_details": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+        "cours_details": "Algorithms are step-by-step procedures for solving problems, and they form the foundation of computer science and .",
         "image": "https://i.ibb.co/nRHhrMS/Rectangle-2-3.png",
         "price": 25000,
         "credit": 2
@@ -18,7 +18,7 @@
     {
         "id": 3,
         "titel": "Introduction to C++ for DSA",
-        "cours_details": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+        "cours_details": "C++ is a versatile programming language commonly used in Data Structures and Algorithms (DSA),offering both the power.",
         "image": "https://i.ibb.co/V3Nk9Nk/Rectangle-2-4.png",
         "price": 10000,
         "credit": 10
@@ -26,7 +26,7 @@
     {
         "id": 4,
         "titel": "Basic Data Structures",
-        "cours_details": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+        "cours_details": "Basic data structures are foundational components in computer science, including arrays and linked lists.",
         "image": "https://i.ibb.co/vvYNCY7/Rectangle-3.png",
         "price": 35000,
         "credit": 5
@@ -34,7 +34,7 @@
     {
         "id": 5,
         "titel": "Introduction to Python",
-        "cours_details": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+        "cours_details": "Python is a popular, high-level programming language known for its simplicity and readability, making it an ideal.",
         "image": "https://i.ibb.co/KVt9v24/Rectangle-2.png",
         "price": 19000,
         "credit": 5
@@ -42,7 +42,7 @@
     {
         "id": 6,
         "titel": "Software Engineering",
-        "cours_details": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+        "cours_details": "Software engineering is a systematic approach to designing, developing, and maintaining software systems.",
         "image": "https://i.ibb.co/R2gPt5v/Rectangle-2-5.png",
         "price": 23000,
         "credit": 2
@@ -50,7 +50,7 @@
     {
         "id": 7,
         "titel": "AWS, Cloud Computing",
-        "cours_details": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+        "cours_details": "Amazon Web Services (AWS) is a leading cloud computing platform, offering a wide range of services for scalable.",
         "image": "https://i.ibb.co/gjd2Wpb/Rectangle-3-1.png",
         "price": 35000,
         "credit": 5
@@ -58,7 +58,7 @@
     {
         "id": 8,
         "titel": "Database (MySQL)",
-        "cours_details": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+        "cours_details": "MySQL is a popular open-source relational database management system known for its speed, reliability, and ease of use.",
         "image": "https://i.ibb.co/tHYz4bg/Rectangle-2-1.png",
         "price": 19000,
         "credit": 5
@@ -66,7 +66,7 @@
     {
         "id": 9,
         "titel": "Problem-Solving Part",
-        "cours_details": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+        "cours_details": "Problem-solving is a critical skill that involves analyzing challenges, identifying solutions, and implementing them effectively.",
         "image": "https://i.ibb.co/3M1JW7T/Rectangle-2-6.png",
         "price": 23000,
         "credit": 2
